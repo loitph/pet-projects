@@ -3,6 +3,8 @@ function divideByTen(input: number) {
     return;
   }
 
-  input = input / 10;
-  return input.toFixed(2);
+  const result = input / 10;
+  return Math.abs(result).toFixed(2);
 }
+
+
