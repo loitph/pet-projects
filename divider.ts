@@ -4,5 +4,7 @@ function divideByTen(input: number) {
   }
 
   const result = input / 10;
-  return Math.abs(result);
+  return Math.abs(result).toFixed(2);
 }
+
+
